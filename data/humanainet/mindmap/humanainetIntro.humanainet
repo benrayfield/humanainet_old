@@ -1,0 +1,69 @@
+prilist
+
+prilistPrilist
+.prilist[dueToRedesignInProgressYouCantLoadOrSaveFiles humanainet mindmap researchInProgress modelsOfGeneralComputing (other/empty)]
+
+acyc
+.def[Acyc is an acyclic network of binary tree nodes, actually a binary forest since they share branches. Theres only 1 leaf, and it has no childs. Everything else has 2 childs. All data is stored in the shapes of those parts of the binary forest, not the leafs like usual. Any data can be stored in acyc.]
+.prilist[acycSync mindmap]
+
+acycSync
+.def[Acycs need to sync with eachother. Since all data is stored in the shape of a binary forest, all acyc are compatible with eachother nomatter what kind of addresses they use. Just translate the shape. The problem is if you're storing those addresses outside an acyc (as I've done to build this mindmap and other components), which I'm in progress of redesigning to allow the addresses to change and those that cant will have to happen between the address updates.]
+.prilist[acyc researchInProgress]
+
+combiningRbmWithModelsOfGeneralComputing
+.def[]
+.prilist[modelsOfGeneralComputing rbm researchInProgress]
+
+conwaysGameOfLife
+.prilist[modelsOfGeneralComputing]
+
+def
+
+dragAndDropInMindmap
+.def[You can dragAndDrop names between these lists, which is a great way to organize ideas. Each is a list and has a definition down here, which you can edit both. You can also put hoursDone and hoursTotal in the textfields below and to the left of each name, if you want to use some parts as a todo list. This is primarily for organizing AI development as hooking into parts of the system, but i've also found it to be a good place to organize ideas in general.]
+.prilist[mindmap]
+
+dueToRedesignInProgressYouCantLoadOrSaveFiles
+.prilist[prilistPrilist]
+
+gamesAccessSubconsciousPsychology
+.def[Music and other art forms and dancing can only be done subconsciously. Games access your subconscious mind. New kinds of games based on AI influencing flowing colors shapes and patterns could more directly access the subconscious. A basic form of this is the smartblob software which is in progress.]
+.prilist[smartblob humanainet]
+
+humanainet
+.def[Human AI Net - the Human and Artificial Intelligence Network, is a group of opensource software (GNU GPL 2+) toward the common purpose of networking minds together at the conscious and subconscious levels.]
+.prilist[gamesAccessSubconsciousPsychology prilistPrilist]
+
+lambda
+.prilist[modelsOfGeneralComputing]
+
+mindmap
+.def[This is the humanainet mindmap. I'm writing a few things in it to demonstrate how it works. I'll write more when I've got acyc sync working.]
+.prilist[dragAndDropInMindmap acyc prilistPrilist]
+
+modelsOfGeneralComputing
+.def[]
+.prilist[lambda turingMachine tagSystem rule110 conwaysGameOfLife combiningRbmWithModelsOfGeneralComputing (other/empty) prilistPrilist]
+
+rbm
+.def[abbrev of restricted/layered boltzmann machine, a symmetric neuralnet]
+.prilist[combiningRbmWithModelsOfGeneralComputing]
+
+researchInProgress
+.def[]
+.prilist[acycSync combiningRbmWithModelsOfGeneralComputing prilistPrilist (other/empty)]
+
+rule110
+.prilist[modelsOfGeneralComputing]
+
+smartblob
+.def[pluggable brains into 2d physics sim of realtime reshapable blobs ... A small (200 kB) framework for building a deeper kind of 2d physics games. A smartblob is a 2d triangle mesh which can form into any shape, depending on how its pluggable brain tells it to shape each triangle as distance constraints andOr triangle volume and depending on how they bounce on and bend and grab eachother. Pluggable brain API is still in-progress. Planned brains will be realtime deeplearning on vectors where each dimension is volume of a triangle or distance between their corners. The games made possible by this will include deeper versions of things like crayon physics, world of goo, angry birds, hill climb racing, monkeyball, sonic the hedgehog, worms, but not like any of those as it will be a new genre of game where AI makes the rules and shapes in realtime. For progress on the brain, see Physicsmata 2.0.0 and click the button for boltzmann demo.]
+.prilist[gamesAccessSubconsciousPsychology]
+
+tagSystem
+.prilist[modelsOfGeneralComputing]
+
+turingMachine
+.prilist[modelsOfGeneralComputing]
+

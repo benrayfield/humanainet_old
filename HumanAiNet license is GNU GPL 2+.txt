@@ -1,0 +1,1 @@
+Ben F Rayfield offers HumanAiNet opensource GNU GPL 2+, while some parts individually offer other licenses.
